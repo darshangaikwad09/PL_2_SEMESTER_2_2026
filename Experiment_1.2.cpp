@@ -37,7 +37,6 @@ public:
         discount = itemPrice * 0.05f;   // 5% discount
         billAmount = itemPrice - discount;
     }
-
     void displayBill() {
         cout << "\n========== HOTEL BILL ==========\n";
         cout << "Table Number      : " << tableNo << endl;
